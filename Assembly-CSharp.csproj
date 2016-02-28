@@ -46,9 +46,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Clock\Scripts\Clock.cs" />
+     <Compile Include="Assets\Script\Boxscript.cs" />
      <Compile Include="Assets\Script\Clockspawner.cs" />
      <Compile Include="Assets\Script\Enemyscript.cs" />
      <Compile Include="Assets\Script\GameOverscript.cs" />
+     <Compile Include="Assets\Script\Menuscript.cs" />
      <Compile Include="Assets\Script\Movescript.cs" />
      <Compile Include="Assets\Script\Startscript.cs" />
      <Compile Include="Assets\TouchScript\Examples\Camera\Scripts\CameraController.cs" />

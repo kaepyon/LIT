@@ -1,15 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class GameOverScript : MonoBehaviour {
+public class GameOverscript : MonoBehaviour {
+	public Button menu;
+	public Button restart;
 
-	// Use this for initialization
-	void Start () {
-	
+	public static string beforescenename;
+
+	public void menuButton(){
+		SceneManager.LoadScene ("Menu");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	public void restartButton(){
+		SceneManager.LoadScene (beforescenename);
 	}
 }
