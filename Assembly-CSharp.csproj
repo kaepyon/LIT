@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Clock\Scripts\Clock.cs" />
      <Compile Include="Assets\Script\Boxscript.cs" />
+     <Compile Include="Assets\Script\Clearscript.cs" />
      <Compile Include="Assets\Script\Clockspawner.cs" />
      <Compile Include="Assets\Script\Enemyscript.cs" />
      <Compile Include="Assets\Script\GameOverscript.cs" />

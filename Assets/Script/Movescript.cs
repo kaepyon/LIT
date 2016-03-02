@@ -12,6 +12,7 @@ public class Movescript : MonoBehaviour {
 	public GameObject camera2;
 	private Text mission;
 	float time=0;
+	public static float score=1000;
 
 	// Use this for initialization
 	void Start () {	
@@ -22,6 +23,8 @@ public class Movescript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		score -= Time.deltaTime;
+		Debug.Log (score);
 		if (Input.GetMouseButtonDown (0)) {
 			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 			RaycastHit hit;
@@ -43,14 +46,10 @@ public class Movescript : MonoBehaviour {
 					left.gameObject.SetActive (false);
 					back.gameObject.SetActive (true);
 				}
-
-				if (hit.collider.tag == "Box") {
-					
-				}
-			
 				
 				if (hit.collider.tag == "Enemy") {
 					hit.collider.SendMessage ("Damage");
+					score += 10.0f;
 				}
 			}
 		}
