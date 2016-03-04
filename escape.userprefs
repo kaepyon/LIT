@@ -2,10 +2,13 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Movescript.cs">
     <Files>
-      <File FileName="Assets/Script/Movescript.cs" Line="13" Column="23" />
+      <File FileName="Assets/Script/Boxscript.cs" Line="34" Column="40" />
+      <File FileName="Assets/Script/Movescript.cs" Line="26" Column="27" />
       <File FileName="Assets/Script/Clockspawner.cs" Line="10" Column="13" />
       <File FileName="Assets/Script/GameOverscript.cs" Line="17" Column="25" />
-      <File FileName="Assets/Script/Menuscript.cs" Line="10" Column="25" />
+      <File FileName="Assets/Script/Menuscript.cs" Line="6" Column="42" />
+      <File FileName="Assets/Script/Clearscript.cs" Line="19" Column="22" />
+      <File FileName="Assets/Script/Startscript.cs" Line="9" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

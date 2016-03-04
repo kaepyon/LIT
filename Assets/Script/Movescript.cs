@@ -24,7 +24,6 @@ public class Movescript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		score -= Time.deltaTime;
-		Debug.Log (score);
 		if (Input.GetMouseButtonDown (0)) {
 			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 			RaycastHit hit;
@@ -55,11 +54,9 @@ public class Movescript : MonoBehaviour {
 		}
 
 		GameObject clock = GameObject.FindGameObjectWithTag ("Enemy").gameObject;
-		Debug.Log (clock.name);
 
 		if(clock != null){
 			time += Time.deltaTime;
-			Debug.Log ("2");
 			if (time >= 10) {
 				GameOverscript.beforescenename=Application.loadedLevelName;
 				SceneManager.LoadScene("GameOver");

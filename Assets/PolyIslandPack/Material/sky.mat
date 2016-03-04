@@ -97,8 +97,12 @@ Material:
         second: 1.37
       data:
         first:
+          name: _SunDisk
+        second: 2
+      data:
+        first:
           name: _SunSize
-        second: 0.049
+        second: 0.07
       data:
         first:
           name: _AtmosphereThickness
