@@ -6,6 +6,6 @@ public class Startscript : MonoBehaviour {
 	public Button start;
 
 	public void startButton(){
-		Application.LoadLevel ("Main1");
+		Application.LoadLevel ("Menu");
 	}
 }
